@@ -1,0 +1,100 @@
+.Contact{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+    background-color: grey;
+}
+.Contact_info{
+    padding-top: 8%;
+    padding-bottom: 8%;
+    display: flex;
+    justify-content: space-evenly;
+    object-fit: fill;
+    background-color: grey;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+
+    }
+.Mobile{
+    width:max-content;
+    border-style: solid;
+    border-color: white;
+    border-end-start-radius: 5%;
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    padding: 1%;
+    box-shadow: White 0px 5px 15px;
+}
+.E-mail{
+    width:max-content;
+    border-style: solid;
+    border-color: white;
+    border-end-start-radius: 5%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    box-shadow: White 0px 5px 15px;
+    
+}
+.Address{
+    width:max-content;
+    border-style: solid;
+    border-color: white;
+    border-end-start-radius: 5%;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    box-shadow: White 0px 5px 15px;
+}
+.Contact_form{
+    display: flex;
+    justify-content: center;
+    padding-bottom: 3%;
+
+}
+.Form_container{
+    padding: 2%;
+    border-style: solid;
+    border-end-start-radius: 5%;
+    width:max-content;
+    justify-content: center;
+    align-items: center;
+    border-color: white;
+    box-shadow: White 0px 5px 10px;
+    
+}
+.Form_title{
+    color: black;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 25px;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 20px;
+}
+.Contact_name{
+    display: flex;
+    justify-content: space-between;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+.Form_name{
+    padding: 7px;
+}
+.Contact_message{
+    padding-top: 3%;
+}
+.Form_button{
+    display: flex;
+    justify-content: flex-start;  
+    padding-top: 10px;
+}
+.Submit_button{
+    width: 30%;
+    padding: 10px 20px 10px 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(57, 116, 183);
+    color: white;
+    cursor: pointer;
+}
